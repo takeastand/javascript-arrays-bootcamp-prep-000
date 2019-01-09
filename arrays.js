@@ -31,7 +31,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 
 function removeElementFromBeginningOfArray(array) {
   return array.slice(1);
-}
+} //This test can be passed with changing array = array.slce(1) then returning array; according to the test parameters this should not pass the test
 
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop();
