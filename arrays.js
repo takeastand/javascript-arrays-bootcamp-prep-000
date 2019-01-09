@@ -20,6 +20,6 @@ function destructivelyAddElementToEndOfArray(a, b) {
   return a;
 }
 
-function accessElementInArray(a, b) {
-  console.log(a[b]);
+function accessElementInArray(array, index) {
+  return array[index];
 }
