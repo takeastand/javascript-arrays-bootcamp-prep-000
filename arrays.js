@@ -5,6 +5,9 @@ function addElementToBeginningOfArray(a, b) {
   
 }
 
-function destructivelyAddElementToBeginningOfArray() {
-  
+function destructivelyAddElementToBeginningOfArray(a, b) {
+  a = [1, 2, 3]
+  b = 4
+  a.push(b)
+  return a
 }
